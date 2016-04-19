@@ -1,0 +1,34 @@
+<?php
+require_once 'constantes.inc.php';
+
+switch(ENV){
+// Mode environnement de test
+    case 'TEST':
+        define('DBHOST', '<db host>');
+        define('DBLOGIN', '<db login>');
+        define('DBPW', '<db password>');
+        define('DBNAME','<db name>');
+        define('DBENC', '<db encoding>');
+        define('MODE_DEBUG', true);
+        break;
+
+//Mode environnement de développement
+    case 'DEV':
+        define('DBHOST', '<db host>');
+        define('DBLOGIN', '<db login>');
+        define('DBPW', '<db password>');
+        define('DBNAME','<db name>');
+        define('DBENC', '<db encoding>');
+        define('MODE_DEBUG', true);
+        break;
+
+//Mode environnement de production
+    case 'PROD':
+        define('DBHOST', '<db host>');
+        define('DBLOGIN', '<db login>');
+        define('DBPW', '<db password>');
+        define('DBNAME','<db name>');
+        define('DBENC', '<db encoding>');
+        define('MODE_DEBUG', false);
+        break;
+}
