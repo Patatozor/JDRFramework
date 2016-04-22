@@ -1,4 +1,11 @@
 <?php
+/* Consignes d'utilisation:
+-faites une copie de ce fichier sous le nom de fichier: db.constantes.inc.php dans le même dossier, l'extension finale
+doit être php
+-remplacez les valeurs entre chevrons (exemple: <db host>) par les valeurs appropriées
+-c'est prêt!
+*/
+
 require_once 'constantes.inc.php';
 
 switch(ENV){
