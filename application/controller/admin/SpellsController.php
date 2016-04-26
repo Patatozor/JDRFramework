@@ -8,5 +8,8 @@
  */
 class SpellsController extends AdminController
 {
-
+    public function liste(){
+        $this->_view->setTitle('Liste des sorts');
+        $this->_view->loadPage('admin/spells/list.php');
+    }
 }

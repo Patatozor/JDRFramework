@@ -11,6 +11,7 @@ class CoreView extends Core
     const TEMPLATES_DIR = TEMPLATES_DIR;
     const LAYOUTS_DIR = LAYOUTS_DIR;
 
+    protected $_content;
     protected $_data;
     protected $_header;
     protected $_footer;

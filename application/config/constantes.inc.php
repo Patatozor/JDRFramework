@@ -4,4 +4,7 @@ define('ENV', 'TEST');
 
 define('TEMPLATES_DIR', 'application/view/');
 define('LAYOUTS_DIR', TEMPLATES_DIR.'layouts/');
+define('CONTROLLERDIR', 'controller/');
 define('DEFAULT_ACTION', 'home');
+define('DEFAULT_SITE', 'public');
+define('DEFAULT_MODULE', 'Home');
